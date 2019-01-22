@@ -1,4 +1,4 @@
 language : java
 
 script:
-  - ./flashcards/gradlew build
+  - ./gradle -p "./flashcards" build
